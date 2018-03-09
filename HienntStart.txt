@@ -1,0 +1,9 @@
+create database : hienntTest
+
+create table EMPLOYEE(
+    id int NOT NULL identity primary key, 
+    name varchar(50) NOT NULL,
+    joining_date date NOT NULL,
+    ssn varchar(30) NOT NULL unique,
+	salary int );
+
